@@ -7,14 +7,6 @@ html, body {
     color: rgb(230, 230, 230) !important;
 }
 
-#home {
-    
-    background-color: rgb(30, 30, 30);
-    display: table;
-    height: 100%;
-    width: 100%;
-}
-
 .custom-font {
 
     font-family: 'Montserrat', sans-serif;
@@ -33,13 +25,8 @@ html, body {
     margin: 0 !important;
 }
 
-.col-lg-6 {
-
-    padding: 30px !important;
-}
-
 .footer-copyright {
 
-    min-height: 40px !important;
+    min-height: 20px !important;
     padding: 15px !important;
 }
