@@ -14,15 +14,14 @@ html, body {
 
 .navbar {
 
-    min-height: 80px;
+    min-height: 70px;
 }
-
 
 .full-page {
 
-    min-height: 700px !important;
-    width: 100vw !important;
-    height: calc(100vh - 140px) !important;
+    /*min-height: 700px !important;*/
+    width: 100% !important;
+    height: calc(100vh - 130px) !important;
     padding: 0 !important;
     margin: 0 !important;
 }
