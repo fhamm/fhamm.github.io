@@ -19,7 +19,7 @@ html, body {
 
 .full-page {
 
-    min-height: 700px !important;
+    min-height: 600px !important;
     width: 100% !important;
     height: calc(100vh - 130px) !important;
     /*height: 100% !important;*/
