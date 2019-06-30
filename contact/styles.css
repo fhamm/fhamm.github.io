@@ -22,7 +22,6 @@ html, body {
     min-height: 700px !important;
     width: 100% !important;
     height: calc(100vh - 130px) !important;
-    /*height: 100% !important;*/
     padding: 0 !important;
     margin: 0 !important;
 }
