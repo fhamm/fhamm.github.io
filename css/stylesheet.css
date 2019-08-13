@@ -1,0 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+#particles-js canvas {
+    display: block;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    background-color: #211e20;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.full-page {
+    min-height: 600px !important;
+    width: 100% !important; 
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.profile {
+    width: 600px;
+    background-color:   rgba(54, 45, 44, 0.70);
+    border-radius: 12px;
+}
+
+.profile-picture {
+    width: 64px;
+    height: 64px;
+}
+
+.img-fluid {
+    max-width: 256px;
+    height: auto;
+}
+
+.img-link {
+    max-width: 128px;
+    height: auto;
+    filter: invert(100%);
+    transition: 0.3s;
+}
+
+.img-link:hover {
+    cursor: pointer;
+    filter: invert(35%);
+}
+
+.btn-circle {
+    width: 50px !important;
+    height: 50px !important;
+    text-align: center !important;
+    border-radius: 50px !important;
+}
